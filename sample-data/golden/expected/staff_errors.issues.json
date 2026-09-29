@@ -1,0 +1,12 @@
+[
+ {"row":1,"field":"uid","code":"DUPLICATE_UID","severity":"BLOCKING"},
+ {"row":2,"field":"uid","code":"DUPLICATE_UID","severity":"BLOCKING"},
+ {"row":3,"field":"join_date","code":"INVALID_DATE","severity":"BLOCKING"},
+ {"row":4,"field":"division","code":"UNKNOWN_ORG","severity":"BLOCKING"},
+ {"row":5,"field":"department","code":"ORG_NOT_EFFECTIVE","severity":"BLOCKING"},
+ {"row":6,"field":"separation_date","code":"FUTURE_SEPARATION","severity":"WARNING"},
+ {"row":7,"field":"separation_date","code":"MISSING_SEPARATION_DATE","severity":"BLOCKING"},
+ {"row":8,"field":"separation_date","code":"DATE_ORDER","severity":"BLOCKING"},
+ {"row":9,"field":"uid","code":"REQUIRED_FIELD","severity":"BLOCKING"},
+ {"row":10,"field":"employment_status","code":"INVALID_VALUE","severity":"BLOCKING"}
+]

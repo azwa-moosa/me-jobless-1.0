@@ -1,0 +1,7 @@
+{
+ "_note": "HAND-VERIFIED against sample-data/golden CSVs. Test fixtures only - NOT approved BML figures. Formulas PENDING HR SIGN-OFF. Period 2026-09, cut-off 2026-09-30, working_days=22 (Sep 2026: 30 days minus 8 Fri/Sat).",
+ "headcount": {"total": 8, "by_division": {"Credit": 4, "Finance": 4}, "excluding_contract": {"total": 7, "Finance": 3}},
+ "overtime": {"total_hours": 148.5, "total_cost": 7425, "hours_by_division": {"Credit": 77.5, "Finance": 71}, "cost_by_division": {"Credit": 3875, "Finance": 3550}, "hours_per_employee_headcount": 18.5625, "cost_per_employee_headcount": 928.125, "hours_per_ot_employee": 24.75, "bands": {"LOW": 3, "MEDIUM": 1, "HIGH": 2}},
+ "absence": {"numerator_days": 6, "denominator_days": 176, "rate": 0.0340909091, "note": "SICK+UNPLANNED only; U008 (not in headcount at cut-off) excluded from numerator"},
+ "leave_utilisation_annual": {"utilised": 7, "entitlement": 90, "rate": 0.0777777778}
+}

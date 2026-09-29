@@ -1,0 +1,16 @@
+# UNVERIFIED: not run in the authoring sandbox (no Docker). DEV/synthetic data only.
+services:
+  db:
+    image: postgres:16
+    environment: { POSTGRES_USER: pap, POSTGRES_PASSWORD: dev-only-change-me, POSTGRES_DB: pap }
+    ports: ["5432:5432"]
+    volumes: ["./migrations:/docker-entrypoint-initdb.d:ro"]
+  api:
+    image: node:22
+    working_dir: /app
+    volumes: ["..:/app"]
+    command: node --experimental-strip-types apps/api/src/main.ts
+    environment: { NODE_ENV: development, AUTH_PROVIDER: mock, DATABASE_URL: "postgres://pap:dev-only-change-me@db:5432/pap", PORT: "3001" }
+    depends_on: [db]
+    ports: ["3001:3001"]
+  # web (Next.js) and worker are scaffolds; see apps/web and apps/worker READMEs.

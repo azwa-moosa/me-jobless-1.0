@@ -1,0 +1,13 @@
+{
+  "name": "bml-people-analytics-platform",
+  "private": true,
+  "type": "module",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "node scripts/dev.ts",
+    "dev:api": "node apps/api/src/main.ts",
+    "dev:web": "npm --workspace @bml/web run dev",
+    "test": "node --test tests/*.test.ts",
+    "docs": "node scripts/generate-docs.ts"
+  }
+}

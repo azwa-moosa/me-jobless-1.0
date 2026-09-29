@@ -1,0 +1,11 @@
+[
+ {"row":1,"field":"uid","code":"DUPLICATE_KEY","severity":"BLOCKING"},
+ {"row":2,"field":"uid","code":"DUPLICATE_KEY","severity":"BLOCKING"},
+ {"row":3,"field":"ot_hours","code":"NEGATIVE_VALUE","severity":"BLOCKING"},
+ {"row":3,"field":"ot_cost","code":"NEGATIVE_VALUE","severity":"BLOCKING"},
+ {"row":4,"field":"uid","code":"UNKNOWN_UID","severity":"BLOCKING"},
+ {"row":5,"field":"division","code":"ORG_MISMATCH_SNAPSHOT","severity":"WARNING"},
+ {"row":6,"field":"ot_hours","code":"INVALID_NUMBER","severity":"BLOCKING"},
+ {"row":7,"field":"period","code":"INVALID_DATE","severity":"BLOCKING"},
+ {"row":8,"field":"ot_hours","code":"OT_HOURS_OUTLIER","severity":"WARNING"}
+]

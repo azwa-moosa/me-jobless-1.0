@@ -1,0 +1,10 @@
+[
+ {"row":2,"field":"uid","code":"UNKNOWN_UID","severity":"BLOCKING"},
+ {"row":3,"field":"uid","code":"DUPLICATE_KEY","severity":"BLOCKING"},
+ {"row":4,"field":"uid","code":"DUPLICATE_KEY","severity":"BLOCKING"},
+ {"row":5,"field":"utilised_days","code":"NEGATIVE_VALUE","severity":"BLOCKING"},
+ {"row":5,"field":"balance_days","code":"BALANCE_EXCEEDS_ENTITLEMENT","severity":"WARNING"},
+ {"row":6,"field":"period","code":"PERIOD_MISMATCH","severity":"BLOCKING"},
+ {"row":7,"field":"leave_type","code":"INVALID_VALUE","severity":"BLOCKING"},
+ {"row":8,"field":"utilised_days","code":"UTILISED_EXCEEDS_PERIOD","severity":"BLOCKING"}
+]

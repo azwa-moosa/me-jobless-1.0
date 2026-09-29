@@ -1,0 +1,10 @@
+uid,full_name,employment_status,employment_type,join_date,separation_date,dob,gender,grade,role,manager_uid,division,department,unit,location
+U001,Test Person 01,Active,Permanent,2018-03-01,,1985-04-12,F,G5,Manager,,Credit,Corporate Credit,Corporate Credit Team A,Male
+U002,Test Person 02,Active,Permanent,2020-07-15,,1992-11-03,M,G3,Officer,U001,Credit,Corporate Credit,,Male
+U003,Test Person 03,Active,Permanent,2015-01-10,,1980-02-20,F,G6,Head of Department,,Credit,Retail Credit,,Male
+U004,Test Person 04,Active,Permanent,2022-09-01,,1998-06-30,M,G2,Officer,U003,Credit,Retail Credit,,Hulhumale
+U005,Test Person 05,Active,Permanent,2019-05-20,,1988-09-09,F,G5,Manager,,Finance,Financial Control,,Male
+U006,Test Person 06,Active,Permanent,2021-02-01,,1995-12-25,M,G3,Officer,U005,Finance,Financial Control,,Male
+U007,Test Person 07,Active,Contract,2026-09-01,,2000-01-15,F,G2,Analyst,U005,Finance,Financial Control,,Male
+U008,Test Person 08,Resigned,Permanent,2016-04-04,2026-09-15,1990-08-08,M,G3,Officer,U003,Credit,Retail Credit,,Male
+U009,Test Person 09,Active,Permanent,2017-10-10,,1983-03-03,M,G4,Officer,U005,Finance,Financial Control,,Male

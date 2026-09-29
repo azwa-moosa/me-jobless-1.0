@@ -1,0 +1,7 @@
+{
+  "name": "@bml/web",
+  "private": true,
+  "scripts": { "dev": "next dev -H 127.0.0.1 -p 3000", "build": "NEXT_DIST_DIR=.next-build next build", "start": "NEXT_DIST_DIR=.next-build next start -H 127.0.0.1 -p 3000" },
+  "dependencies": { "next": "^15.5.0", "react": "^19.1.0", "react-dom": "^19.1.0" },
+  "devDependencies": { "typescript": "^5.9.0", "@types/react": "^19.1.0", "@types/node": "^22.0.0" }
+}

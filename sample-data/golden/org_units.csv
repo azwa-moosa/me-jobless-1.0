@@ -1,0 +1,9 @@
+unit_id,level,name,parent_id,effective_from,effective_to
+BML,BANK,Bank of Maldives,,2000-01-01,
+DIV-CR,DIVISION,Credit,BML,2000-01-01,
+DIV-FIN,DIVISION,Finance,BML,2000-01-01,
+DEP-CR-CORP,DEPARTMENT,Corporate Credit,DIV-CR,2000-01-01,
+DEP-CR-RET,DEPARTMENT,Retail Credit,DIV-CR,2000-01-01,
+DEP-CR-OLD,DEPARTMENT,Legacy Credit,DIV-CR,2000-01-01,2026-06-30
+DEP-FIN-CTL,DEPARTMENT,Financial Control,DIV-FIN,2000-01-01,
+UNIT-CR-CORP-A,UNIT,Corporate Credit Team A,DEP-CR-CORP,2000-01-01,
